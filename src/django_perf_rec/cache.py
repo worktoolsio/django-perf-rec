@@ -63,6 +63,8 @@ class CacheOp(Operation):
         re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"),
         # Integers
         re.compile(r"\d+"),
+        # Stacker specific: sids
+        re.compile(r"[0-9a-f]{14}"),
     )
 
     def __eq__(self, other: Any) -> bool:
