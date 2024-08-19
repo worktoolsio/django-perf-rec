@@ -2,6 +2,8 @@
 django-perf-rec
 ===============
 
+**Fork of https://github.com/adamchainz/django-perf-rec/**
+
 .. image:: https://img.shields.io/github/actions/workflow/status/adamchainz/django-perf-rec/main.yml.svg?branch=main&style=for-the-badge
    :target: https://github.com/adamchainz/django-perf-rec/actions?workflow=CI
 
