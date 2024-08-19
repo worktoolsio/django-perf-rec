@@ -61,6 +61,8 @@ class CacheOp(Operation):
         re.compile(r"\b[0-9a-f]{32}\b"),
         # UUIDs
         re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"),
+        # Stacker specific: sids
+        re.compile(r"[0-9a-z]{14}\b"),
         # Integers
         re.compile(r"\d+"),
     )
